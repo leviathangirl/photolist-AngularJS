@@ -6,7 +6,7 @@ app.config(function($routeProvider) {
     }
     .when('/photos/:id', {
     controller: 'PhotoController',
-  templateUrl: 'views/photo.html' }
+  templateUrl: 'views/photo.html'}
 
     )
   ).otherwise({
